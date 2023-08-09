@@ -7,9 +7,8 @@ import java.util.Objects;
 
 public class ServicePerson {
     public boolean validation(Age age){
-        Age idade = new Age();
         Objects.requireNonNull(age, "Object cant be null.");
-        return idade.getIdade() >= 18;
+        return age.getIdade() >= 18;
 
     }
 }
