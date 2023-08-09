@@ -1,1 +1,1 @@
-Um simples teste unitario feito com Junit.
+Testes unitarios feito com Junit.
